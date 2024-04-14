@@ -19,7 +19,7 @@ const TopPlay = () => {
     divRef.current.scrollIntoView({ behavior: "smooth" });
   });
 
-  // eslint-disable-next-line react/no-unstable-nested-components
+
   const TopChartCard = ({
     song,
     i,
