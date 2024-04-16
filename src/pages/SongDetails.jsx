@@ -3,14 +3,15 @@ import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
 const SongDetails = () => {
-    const { songid, id: artistId } = useParams();
-    const dispatch = useDispatch();
-    const { activeSong, isPlaying } = useSelector((state) => state.player);
+    const { songid } = useParams();
+    // const dispatch = useDispatch();
+    // const { activeSong, isPlaying } = useSelector((state) => state.player);
+
+    console.log("songid is " + songid);
 
 
-    return (
-        <div>SongDetails</div>
-    )
+    return <div>SongDetails</div>
+    
     
 };
 

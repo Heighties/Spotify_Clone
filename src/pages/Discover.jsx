@@ -21,7 +21,7 @@ const Discover = () => {
 
     if (error) return <Error />;
 
-    console.log("Voici les datas : ", JSON.stringify(data));
+    // console.log("Voici les datas : ", JSON.stringify(data));
 
 
 return(
