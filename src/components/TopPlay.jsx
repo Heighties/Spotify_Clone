@@ -19,7 +19,6 @@ const TopPlay = () => {
     divRef.current.scrollIntoView({ behavior: "smooth" });
   });
 
-
   const TopChartCard = ({
     song,
     i,
