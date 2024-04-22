@@ -8,6 +8,11 @@ const AroundYou = () =>{
     const [country, setCountry] = useState('');
     const [loading, setLoading] = useState(true);
     const {activeSong,isPlaying} = useSelector((state) => state.player);
+
+    useEffect(() => {
+        //api geo.ipify : 
+        // at_TcqHdpRSgbK1MpnbcX80XzBBRyTLq
+    }, [country]);
     
     return(
         <div>CountryTracks</div>
